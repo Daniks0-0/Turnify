@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Button  from '../../assets/button.svg';
-import './MainSection.css';
+import './MainSection.scss';
 import Header from '../Header/Header';
-import EchangeSection from '../EchangeSection/EchangeSection';
+import EchangeSection from '../ExchangeSection/ExchangeSection';
 
 function MainSection() {
   const [time, setTime] = useState(new Date());

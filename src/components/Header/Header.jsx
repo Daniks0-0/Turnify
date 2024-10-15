@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "@effective/css-reset/typography.css";
-import './Header.css';
+import './Header.scss';
 import { Link } from "react-router-dom";
 
 function Header() {
